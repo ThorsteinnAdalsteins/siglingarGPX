@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1622920054911.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2287867880",
+    "id" : "16D420A",
+    "lastKnownWriteTime" : 1622921206,
+    "last_content_update" : 1622921206760,
+    "path" : "~/R/gpx-stats/urvinnsla_gpx.Rmd",
+    "project_path" : "urvinnsla_gpx.Rmd",
+    "properties" : {
+        "chunk_output_type" : "console",
+        "cursorPosition" : "21,0",
+        "scrollLine" : "10"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

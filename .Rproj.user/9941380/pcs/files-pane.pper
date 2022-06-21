@@ -1,0 +1,9 @@
+{
+    "path" : "~/R/gpx-stats",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
