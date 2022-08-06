@@ -55,7 +55,7 @@ trip.meta.ext <- inner_join(
   by = 'skjal')
 
 trip.meta.ext$id
-selected_file <- nrow(trip.meta.ext)
+selected_file <- nrow(trip.meta.ext)-1
 #selected_file <- 26
 
 trip.meta.ext$id[selected_file]
