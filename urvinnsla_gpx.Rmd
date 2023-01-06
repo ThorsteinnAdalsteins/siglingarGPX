@@ -27,7 +27,8 @@ require(DT)
 #require(leaflet)
 
 this.home <- getwd()
-gpx.home <- 'C:/Users/Notandi/Google Drive/Skemmtibátapróf/Siglingar (gpx)'
+gpx.home <- str_c(this.home, '_GognInn', sep = '/')
+
 #list.files(gpx.home)
 
 ```
@@ -35,7 +36,7 @@ gpx.home <- 'C:/Users/Notandi/Google Drive/Skemmtibátapróf/Siglingar (gpx)'
 
 ```{r, label='skjalaval'}
 
-list.files(gpx.home)
+#list.files(gpx.home)
 
 
 trip.meta <- readxl::read_excel('trip_metadata.xlsx')
@@ -55,7 +56,7 @@ trip.meta.ext <- inner_join(
   by = 'skjal')
 
 trip.meta.ext$id
-selected_file <- nrow(trip.meta.ext)-1
+selected_file <- nrow(trip.meta.ext)
 #selected_file <- 26
 
 trip.meta.ext$id[selected_file]
